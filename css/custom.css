@@ -1,0 +1,32 @@
+/** ADD YOUR AWESOME CODES HERE **/
+i.check-square{
+	color: #cdd51f;
+	margin-right: 7px;
+}
+.bold-text{
+	font-weight: bold;
+}
+.price{
+    font-size: 25px;
+    color:  #cdd51f;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.creation-time{
+	font-weight: bold;
+}
+.distance-bw{
+	margin-top: 10px;
+}
+.title{
+	font-weight: bold;
+}
+
+
+.table-price{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    color: grey;
+}
