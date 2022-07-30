@@ -1462,13 +1462,14 @@ li.social-links a {
 .play-button {
 
  background-image:url(uploads/play-button.png);
+ display: flex;
  background-repeat:no-repeat;
  width:6%;
  height:20%;
  position:absolute;
  left:0%;
  right:0%;
- top:10%;
+ top: 20%;
  bottom:0%;
  margin:auto;
  background-size:contain;
@@ -3489,15 +3490,7 @@ select.mobile-device {
   
 
 
-  section{
-    font-family: Oxygen, sans-serif;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 26rem));
-    justify-content: center;
-    grid-gap: 8rem;
-    margin: 2rem;
-
-  }
+  
   
   ul,
   a,
@@ -3506,58 +3499,12 @@ select.mobile-device {
     list-style: none;
     text-decoration: none;
     cursor: pointer;
-  }
+    }
   
   
-  .card {
-    box-shadow: 0px 2px 20px var(--clr-gray200);
-    border-radius: var(--radius);
-    overflow: hidden; /* to make radius visible */
-    display: column-reverse;
-    flex-direction: column;
-    justify-content: space-between; /* Put view recipe at the end of the container */
-  }
-  
-  
-  .card img {
-    height: 12rem;
-    width: 100%; /* extend the entire card with*/
-    object-fit: cover;
-    transition: transform 200ms ease-in;
-  }
-  
-  .card-title {
-    padding: 1rem;
-  }
-  
-  .card-description {
-     padding: 0 1rem;
-     font-weight: bolder;
-  }
-  
-  .card-btn {
-     padding: 1rem;
-      font-family: inherit;
-      font-weight: bolder;
-      font-size: 1rem;
-      margin: 1rem;
-      border: 2px solid var(--clr-primary);
-      background: transparent;
-      color: var(--clr-primary);
-      border-radius: var(--radius);
-      transition: background 200ms ease-in, color 200ms ease-in;
-  }
-  
-  /* Hover Effects */
-  
-  .card:hover {
-     transform: scale(1.02);
-  }
-  
-  .card-btn:hover {
-    background: var(--clr-primary);
-    color: white;
-  }
+
+     
+
 
 
 .section-padding {
@@ -3711,3 +3658,29 @@ section .text-container .text-box h3{
   transform: translateY(0);
   opacity: 1;
 }
+
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 80%;
+    padding: 2px;
+    text-align: right;
+    margin-left:90px;
+    padding-right:15px;
+    
+}
+
